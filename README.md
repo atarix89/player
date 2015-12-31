@@ -1,7 +1,7 @@
 This project uses Waveout interface (no DirectX) to play PCM format files.
 
 It contains:
-	-Standard Win32 dialogs/controls.
+  -Standard Win32 dialogs/controls.
   -Multiple threads(3).
   -Sound device and audio block operations.
   -File pointer operations and RIFF structure reading.
