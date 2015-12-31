@@ -1,8 +1,6 @@
-﻿Build started 31.12.2015 1:26:52.
-     1>Project "D:\system\Users\atari\GitHub\player\player\player.vcxproj" on node 2 (rebuild target(s)).
-     1>_PrepareForClean:
-         Deleting file "Release\player.lastbuildstate".
-       InitializeBuildStatus:
+﻿Build started 31.12.2015 3:46:01.
+     1>Project "D:\system\Users\atari\GitHub\player\player\player.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
          Creating "Release\player.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\player.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
@@ -23,14 +21,9 @@
          Release\stdafx.obj
          Generating code
          Finished generating code
-         player.vcxproj -> D:\system\Users\atari\GitHub\player\Release\player.exe
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\system\Users\atari\GitHub\player\Release\player.exe;#1" /manifest Release\player.exe.intermediate.manifest
-       FinalizeBuildStatus:
-         Deleting file "Release\player.unsuccessfulbuild".
-         Touching "Release\player.lastbuildstate".
-     1>Done Building Project "D:\system\Users\atari\GitHub\player\player\player.vcxproj" (rebuild target(s)).
+     1>LINK : fatal error LNK1123: failure during conversion to COFF: file invalid or corrupt
+     1>Done Building Project "D:\system\Users\atari\GitHub\player\player\player.vcxproj" (build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:02.00
+Time Elapsed 00:00:02.29
