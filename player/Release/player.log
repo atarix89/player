@@ -1,0 +1,36 @@
+﻿Build started 31.12.2015 1:26:52.
+     1>Project "D:\system\Users\atari\GitHub\player\player\player.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\player.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\player.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\player.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\player.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt player.cpp
+         player.cpp
+     1>player.cpp(197): warning C4244: '=' : conversion from 'double' to 'DWORD', possible loss of data
+     1>player.cpp(199): warning C4244: '=' : conversion from 'double' to 'DWORD', possible loss of data
+     1>player.cpp(319): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>player.cpp(321): warning C4244: 'argument' : conversion from 'float' to 'LPARAM', possible loss of data
+     1>player.cpp(144): warning C4101: 'pData' : unreferenced local variable
+     1>player.cpp(153): warning C4101: 'bpos' : unreferenced local variable
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\player.res" player.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\system\Users\atari\GitHub\player\Release\player.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\player.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\system\Users\atari\GitHub\player\Release\player.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\system\Users\atari\GitHub\player\Release\player.lib" /MACHINE:X86 Release\player.res
+         Release\player.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         player.vcxproj -> D:\system\Users\atari\GitHub\player\Release\player.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\system\Users\atari\GitHub\player\Release\player.exe;#1" /manifest Release\player.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\player.unsuccessfulbuild".
+         Touching "Release\player.lastbuildstate".
+     1>Done Building Project "D:\system\Users\atari\GitHub\player\player\player.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.00
